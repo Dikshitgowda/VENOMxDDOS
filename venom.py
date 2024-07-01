@@ -40,7 +40,8 @@ async def main():
             restart_count = 0
             last_restart_time = time.time()
 
-        logging.info("Starting the bot...")
+        logging.info("Start
+        the bot...")
         process = start_bot()
         await notify_admin("🚀 Bot is starting...")
 
